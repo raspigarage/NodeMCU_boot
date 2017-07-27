@@ -7,7 +7,7 @@ import gc
 import network
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect('Alice-53272409', 'WifiFamigliaManfredi2016')
+wlan.connect('SSID', 'passwordWIFI')
 #demone per la connessione
 import webrepl
 webrepl.start()
